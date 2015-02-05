@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B9981384-D117-7A12-3788-2E12349BF11D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\MyScripts\AutoShoot.cs" />
+     <Compile Include="Assets\MyScripts\EnemyDestory.cs" />
+     <Compile Include="Assets\MyScripts\Homming.cs" />
+     <Compile Include="Assets\MyScripts\ProjectileBehavior.cs" />
+     <Compile Include="Assets\MyScripts\Shoot.cs" />
+     <Compile Include="Assets\MyScripts\TestMovement.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\SampleAssets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\AbstractTargetFollower.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\FreeLookCam.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\HandHeldCam.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\LookatTarget.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\PivotBasedCameraRig.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
+     <Compile Include="Assets\SampleAssets\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\SampleAssets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\SampleAssets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\AmbientObscurance.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\AntialiasingAsPostEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Bloom.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\BloomAndLensFlares.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Blur.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\BlurEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\CameraInfo.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ColorCorrectionLut.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Crease.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\DepthOfField34.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\DepthOfFieldScatter.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\EdgeDetectEffectNormals.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\GlowEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\GrayscaleEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\NoiseEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Quads.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\SSAOEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\SepiaToneEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\TiltShiftHdr.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Triangles.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\TwirlEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\Vignetting.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Scripts\VortexEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\LightShafts\Scripts\LightShafts.Resources.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\LightShafts\Scripts\LightShafts.Utils.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\LightShafts\Scripts\LightShafts.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\Explosive.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\FireLight.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\Hose.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\SmokeParticles.cs" />
+     <Compile Include="Assets\SampleAssets\Effects\ParticleSystems\scripts\WaterHoseParticles.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\Displace.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\Water.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\SampleAssets\Environment\Water (Pro Only)\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\SampleAssets\SampleScenes\Scripts\Clouds.cs" />
+     <Compile Include="Assets\SampleAssets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\SampleAssets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\SampleAssets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\SampleAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\BrakeLight.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\CarAIControl.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\CarController.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\CarUserControl.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\Mudguard.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\SkidTrail.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\Suspension.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\Car\Scripts\Wheel.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\SampleAssets\Vehicles\RollerBall\Scripts\BallUserControl.cs" />
+     <None Include="Assets\SampleAssets\Effects\Projectors\ProjectorGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\GlassRefraction (Pro Only)\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\SampleAssets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\SampleAssets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\SamplePositions.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\Shared.cginc" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\Coord.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GlowCompose.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastStretch\MinMaxReduction.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\RadialBlur.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\SampleAssets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastStretch\Apply.shader" />
+     <None Include="Assets\SampleAssets\Environment\Water (Pro Only)\Shaders\FXWaterV4Simple.shader" />
+     <None Include="Assets\SampleAssets\Effects\Projectors\Shaders\ProjectorAdditive.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\FragAO.cginc" />
+     <None Include="Assets\SampleAssets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\InterpolateAlongRays.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\DepthBreaks.shader" />
+     <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\SampleAssets\Effects\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\SampleAssets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SSAOShader.shader" />
+     <None Include="Assets\SampleAssets\Effects\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\SampleAssets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\SampleAssets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GlobalFog.shader" />
+     <None Include="Assets\SampleAssets\Effects\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastStretch\Luminance.shader" />
+     <None Include="Assets\SampleAssets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\SampleAssets\Environment\Water (Pro Only)\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\VortexEffect.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ContrastStretch\Adaptation.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\SampleAssets\Effects\Shaders\MobileSpec.shader" />
+     <None Include="Assets\SampleAssets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\VignettingShader.shader" />
+     <None Include="Assets\SampleAssets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\Tonemapper.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\SampleAssets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\Raymarch.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\FinalInterpolation.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\SampleAssets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\Depth.shader" />
+     <None Include="Assets\SampleAssets\Environment\Water (Pro Only)\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\SampleAssets\Environment\Water (Pro Only)\Shaders\FXWaterV4Pro.shader" />
+     <None Include="Assets\SampleAssets\Vehicles\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\SimpleClear.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\LightShaftsGuidelines.txt" />
+     <None Include="Assets\SampleAssets\Effects\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\SampleAssets\Effects\LightShafts\Shaders\ColorFilter.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\SampleAssets\Effects\ImageEffects (Pro Only)\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EF166829-417E-400C-0649-BA06A9C07FEF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{20DD6EAA-BDF2-F336-D1EF-0D93B74B0DF9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
