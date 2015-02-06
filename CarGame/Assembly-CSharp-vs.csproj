@@ -52,8 +52,10 @@
      <Compile Include="Assets\MyScripts\ExplosionScript.cs" />
      <Compile Include="Assets\MyScripts\Homming.cs" />
      <Compile Include="Assets\MyScripts\ProjectileBehavior.cs" />
+     <Compile Include="Assets\MyScripts\ScoreManager.cs" />
      <Compile Include="Assets\MyScripts\Shoot.cs" />
      <Compile Include="Assets\MyScripts\TestMovement.cs" />
+     <Compile Include="Assets\MyScripts\TurretController.cs" />
      <Compile Include="Assets\MyScripts\WorldGUI.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\SampleAssets\2D\Scripts\CameraFollow.cs" />

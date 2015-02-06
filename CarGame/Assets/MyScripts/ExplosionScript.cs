@@ -8,7 +8,9 @@ public class ExplosionScript : MonoBehaviour {
 		Transform objLocation = objectHit.transform;
 		GameObject explosion;
 		explosion = Instantiate(bigExplosion, objLocation.position, objLocation.rotation) as GameObject;
-		objectHit.GetComponent<Rigidbody>().AddForce(Vector3.up * 1000);
+		ScoreManager.score += 10;
+
+		//objectHit.GetComponent<Rigidbody>().AddForce(Vector3.up * 1000);
 		//Destroy(this.gameObject);
 	}
 }

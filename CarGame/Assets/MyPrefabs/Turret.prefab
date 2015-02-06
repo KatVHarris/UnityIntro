@@ -46,6 +46,7 @@ GameObject:
   - 114: {fileID: 11480830}
   - 54: {fileID: 5480828}
   - 114: {fileID: 11429004}
+  - 114: {fileID: 11495930}
   m_Layer: 0
   m_Name: Turret
   m_TagString: Enemy
@@ -250,6 +251,20 @@ MonoBehaviour:
   target: {fileID: 0}
   turret: {fileID: 0}
   damp: .5
+--- !u!114 &11495930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d437495529602446833ca82703f230e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackStrength: 10
+  Health: 20
+  refireSpeed: 2
 --- !u!135 &13580828
 SphereCollider:
   m_ObjectHideFlags: 1

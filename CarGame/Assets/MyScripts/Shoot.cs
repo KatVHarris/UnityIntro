@@ -4,6 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour {
 
 	public GameObject fireballPrefab; //bulletPrefab; 
+	public int idk; 
 	
 	// Use this for initialization
 	void Start () {

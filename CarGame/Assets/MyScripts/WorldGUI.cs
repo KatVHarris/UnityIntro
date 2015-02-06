@@ -3,6 +3,7 @@ using System.Collections;
 
 public class WorldGUI : MonoBehaviour {
 
+	public int score;
 	// Use this for initialization
 	void Start () {
 	

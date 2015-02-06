@@ -16,7 +16,6 @@ public class ProjectileBehavior : MonoBehaviour {
 						Destroy (this.gameObject); // first then add explosion
 						objectHit.GetComponent<ExplosionScript>().BlowUp(objectHit, explosionPrefab);
 
-
 				} else {
 						if (objectHit.transform.parent != null && objectHit.transform.parent.tag == "Enemy") {
 								Destroy (this.gameObject);
