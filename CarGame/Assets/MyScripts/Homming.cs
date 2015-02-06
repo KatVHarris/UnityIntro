@@ -4,13 +4,16 @@ using System.Collections;
 public class Homming : MonoBehaviour {
 	public Transform target; 
 	public Transform turret; 
-	public float damp = 1.0f; 
+	public float damp = 0.50f; 
+	GameObject targetObject; 
 	// Update is called once per frame
 
 	void Start(){
 		if (this.transform.parent != null) {
 			turret = this.transform.parent.transform; 
 		}
+		targetObject = GameObject.Find ("Player");
+		target = targetObject.transform;
 	}
 	void Update () {
 
