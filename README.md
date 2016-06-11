@@ -44,9 +44,12 @@ Adding scoring
 Adding score to the screen
 
 ## Building Game
+PC/Mac Build Settings 
 
 ## Bonus
 
 #### Shooting
+Projectile Scripting and 
 
 #### Particle Effects
+
