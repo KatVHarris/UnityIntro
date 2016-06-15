@@ -16,14 +16,14 @@ Inspector Window
 
 #### Scene Navigation
 #### Glossary
-* Project 
-* Scene
-* Hierarchy
-* GameObject
-* Transform
-* Prefabs
-* Scripts
-* Assets
+* Project - All the files inside of a Unity Project. 
+* Scene - The Game
+* Hierarchy - List of Objects in the Scene
+* GameObject - Items within the scene
+* Transform - Vetor3 of a GameObject
+* Prefabs - Prefabricated Objects that can be inserted into the scene
+* Scripts - Code 
+* Assets - Files in your project (pictures, materials, scripts, prefabs, etc)
 
 ## Prefabricated Objects
 First Person Controller
@@ -38,18 +38,21 @@ Terrain
 Activate On Trigger Enter
 Create C# script for collided object behavoir
 Destory collectable object
-Adding scoring
 
 ## UI
 Adding score to the screen
+
+## UI interaction
 
 ## Building Game
 PC/Mac Build Settings 
 
 ## Bonus
 
+#### Particle Effects
+
 #### Shooting
 Projectile Scripting and 
 
-#### Particle Effects
+
 
