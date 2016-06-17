@@ -31,8 +31,11 @@ How to get prefabs into your game
 How to create a prefab
 
 ## Environment Creation
-Import the Environment Assets
-Terrain
+Step 1: Import the Environment Assets
+Step 2: Create Terrain
+1. Right Click in Hierarchy > 3D > Terrain
+2. Click the Mountian Button, then click and drag on the terrain to make mountians appear
+3. Click the Mountian Flatten Buton to Flaten the mountains to a specific height.  
 
 ## Object Interaction
 Activate On Trigger Enter
