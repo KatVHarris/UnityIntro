@@ -45,9 +45,16 @@ Create C# script for collided object behavoir
 Destory collectable object
 
 ## UI
-Adding score to the screen
+Right Click in Hierarchy
+UI > Canvas
+Before adding any other UI elements in Unity you must add a Canavas. 
+With the Canvas Selected 
+Right click in the Hierarchy > Select UI > Text
+
 
 ## UI interaction
+
+
 
 ## Building Game
 PC/Mac Build Settings 
