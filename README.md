@@ -26,6 +26,9 @@ Inspector Window
 * Assets - Files in your project (pictures, materials, scripts, prefabs, etc)
 
 ## Prefabricated Objects
+Go to Assets > Import > Characters and import the character asset package
+Once the package is imported into the project go to the Character folder. Open the prefabs folder. Drag the FPS prefab into the hierarchy. 
+
 First Person Controller
 How to get prefabs into your game
 How to create a prefab
